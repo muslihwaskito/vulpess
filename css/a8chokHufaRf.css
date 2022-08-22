@@ -1,0 +1,294 @@
+/* mobile screen css */
+@media screen and (max-width: 1400px) {
+    .footer-list ul li a {
+        margin: 0 5px;
+    }
+}
+/* 1400px */
+@media screen and (max-width: 1200px) {
+    .header-banner {
+        max-width: 670px;
+    }
+    .banner-image {
+        max-width: 470px;
+    }
+    img.coin-animation {
+        left: 110px;
+        max-width: 150px;
+    }
+    img.superman_doge-animation {
+        max-width: 130px;
+        top: -35px;
+    }
+    img.rewards-animation {
+        right: -50px;
+        bottom: 60px;
+        max-width: 180px;
+    }
+    img.banner-footer {
+        margin-top: -50px;
+    }
+    .nfts-item img {
+        height: 190px;
+    }
+    .how-faq-social .banner-social ul li img {
+        width: 55px;
+        height: 55px;
+    }
+    .footer-brands-inner img {
+        height: 30px;
+    }
+    .footer-list ul li a {
+        margin: 0 0px;
+        font-size: 12px;
+    }
+}
+/* 1200px */
+@media screen and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        transition: all 0.2s ease;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        transition: left 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        background-color: #004167;
+        z-index: 999;
+        padding: 30px 0;
+    }
+
+    nav.main-nav {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+
+    button.navbar-toggler svg {
+        width: 40px;
+        height: 40px;
+    }
+    button.close.float-right {
+        background-color: transparent;
+        border: 0;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    button.close.float-right svg {
+        width: 30px;
+        height: 30px;
+        color: #fff;
+    }
+
+    .header-banner {
+        max-width: 460px;
+        padding-top: 230px;
+    }
+
+    .banner-image {
+        max-width: 400px;
+    }
+
+    img.superman_doge-animation {
+        max-width: 100px;
+        top: -35px;
+    }
+    img.rewards-animation {
+        right: -40px;
+        bottom: 98px;
+        max-width: 110px;
+    }
+    .tokenomics-list ul li p {
+        font-size: 14px;
+    }
+    .tokenomics-list ul li h4 {
+        font-size: 40px;
+    }
+    .tokenomics-buy img,
+    .tokenomics-sell img {
+        max-width: 90px;
+    }
+    .tokenomics-buysell .media h5 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .tokenomics-buysell .media p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .tokenomics-buy {
+        bottom: -15px;
+    }
+    .tokenomics-sell {
+        bottom: -6px;
+    }
+    img.roadmap02 {
+        max-width: 130px;
+    }
+    .nfts-inner {
+        padding: 40px 20px 30px;
+    }
+    .nfts-item a {
+        max-width: 144px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    .nfts-item img {
+        height: 150px;
+    }
+    .nfts-item h3 {
+        font-size: 20px;
+    }
+    .how-doge img {
+        max-width: 85%;
+    }
+    .how-faq-social .banner-social ul li img {
+        width: 40px;
+        height: 40px;
+    }
+    .how-faq-social .banner-social ul li {
+        margin: 5px 5px;
+    }
+    .main-nav .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        padding: 3px 10px;
+        margin: 5px 8px;
+    }
+    .main-nav .navbar-nav li.nav-item.nav-buy .nav-link {
+        width: 90px;
+        padding: 6px 0;
+    }
+}
+/* 991px */
+@media screen and (max-width: 767px) {
+    img.rewards-animation,
+    img.cloud-animation {
+        display: none;
+    }
+    .banner-image {
+        max-width: 300px;
+    }
+    img.coin-animation {
+        left: 72px;
+        max-width: 90px;
+        top: 44px;
+    }
+
+    img.superman_doge-animation {
+        max-width: 80px;
+        top: -38px;
+    }
+    .d-busd {
+        max-width: 100%;
+    }
+
+    .d-busd h6 {
+        text-align: center;
+        padding-right: 0;
+    }
+    a.banner-buyNow {
+        margin: 40px 0;
+    }
+    .d-busd.busd-copy p {
+        text-align: right;
+        padding: 0;
+        padding-right: 22px;
+    }
+    .exchange-sites {
+        margin-top: 40px;
+    }
+    img.banner-footer {
+        margin-top: 0;
+    }
+    .why-doge-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tokenomics-list ul {
+        flex-wrap: wrap;
+    }
+    .tokenomics-list ul li {
+        animation: none !important;
+    }
+    .tokenomics-list ul li {
+        width: 100%;
+        height: 200px;
+    }
+    .tokenomics-buysell .col-md-6.d-flex.justify-content-start,
+    .tokenomics-buysell .col-md-6.d-flex.justify-content-end {
+        justify-content: center !important;
+        margin-bottom: 50px;
+    }
+    .tokenomics {
+        background-image: url(../images/SPYPjXvOOUEx.png);
+    }
+    .roadmap-left img,
+    .roadmap-right img {
+        max-width: 120px;
+    }
+    .roadmap-right {
+        margin: 50px 0;
+    }
+    .roadmap h5 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .how-doge img {
+        max-width: 250px;
+    }
+
+    .how-faq .heading {
+        font-size: 30px;
+        line-height: normal;
+        margin-top: 50px;
+    }
+    .footer-brands-inner {
+        grid-template-columns: auto auto;
+    }
+    .disclamer {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .footer-list ul li a {
+        margin: 5px !important;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .footer {
+        text-align: center;
+    }
+    img.dino_1 {
+        display: none;
+    }
+}
+/* 767px */
